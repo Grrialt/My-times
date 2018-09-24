@@ -1,0 +1,89 @@
+.header{
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	display: flex;
+}
+.logo {
+	display: inline-flex;
+	flex-grow: 2;
+	padding: 10px 0px 0px 0px;
+	
+}
+
+.logo .text{
+	color: MediumAquamarine;
+	align-items: center;
+}
+
+.navigation{
+	display: flex;
+	align-items: center;
+}
+
+.navigation li{
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	display: inline;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.navigation a{
+	flex-direction: row;
+	flex-grow: 1;
+	
+}
+
+/* Body part starts */
+
+.container{
+	display: flex;
+	border: thin solid black;
+}
+
+.column{
+	
+	border: thin solid black;
+}
+
+.column .large {
+	display: inline-flex;
+	flex-direction: column;
+	flex-grow: 3;
+	border: thin solid black;
+  	width: 630px;
+}
+
+.column .large p{
+	border: thin solid black;
+}
+
+.column.medium {
+	display: inline-flex;
+	flex-direction: column;
+	flex-grow: 2;
+  	border: thin solid black;
+  	width: 300px;
+}
+
+.column.small {
+	display: inline-flex;
+	flex-direction: column;
+	flex-grow: 1;
+	border: thin solid black;
+  	width: 240px;
+}
+
+.text-1,
+.text-2,
+.text-3,
+.text-4,
+.text-5,
+.text-6,
+p1{
+	border: thin solid black;
+}
+
+
