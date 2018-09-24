@@ -76,12 +76,12 @@
   	width: 240px;
 }
 
-/*.text-1,*/
-.text-2/*,
+.text-1,
+.text-2,
 .text-3,
 .text-4,
 .text-5,
-.text-6*/{
+.text-6{
 	border: thin solid black;
 	font-family: Georgia;
     font-size: 17px;
@@ -101,6 +101,7 @@
 
  .text-1 p1{
  	display: flex;
+ 	background-image: url(./resources/imges/img-story-main.png);
  	align-items: center;
  	position: absolute;
  	font-family: Georgia;
@@ -113,6 +114,7 @@
 
  .text-2 p1{
  	display: flex;
+ 	background-image: url(./resources/imges/img-story-2.png);
  	align-items: center;
  	position: absolute;
  	font-family: Georgia;
@@ -125,6 +127,7 @@
 
  .text-3 p1{
  	display: flex;
+ 	background-image: url(./resources/imges/img-story-3.png);
  	align-items: center;
  	position: absolute;
  	font-family: Georgia;
@@ -137,6 +140,7 @@
 
  .text-5 p1{
  	display: flex;
+ 	background-image: url(./resources/imges/img-story-1.png);
  	align-items: center;
  	position: absolute;
  	font-family: Georgia;
