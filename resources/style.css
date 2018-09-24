@@ -97,54 +97,54 @@
  	display: flex;
  }*/
 
- .text-1 p1{
+ .img-1 p{
  	display: flex;
  	background-image: url(./imges/img-story-main.png);
  	align-items: center;
- 	position: absolute;
  	font-family: Georgia;
     font-weight: bold;
     font-size: 40px;
     color: white;
     width: 590px;
     margin: 0 auto;
+    padding: 70px 60px;
 }
 
- .text-2 p1{
+ .img-2 p{
  	display: flex;
  	background-image: url(./imges/img-story-2.png);
- 	align-items: center;
- 	position: absolute;
+ 	align-items: flex-start;
  	font-family: Georgia;
     font-weight: bold;
     font-size: 30px;
     color: white;
     width: 590px;
     margin: 0 auto;
+    padding: 130px 60px;
 }
 
- .text-3 p1{
+ .img-3 p{
  	display: flex;
  	background-image: url(./imges/img-story-3.png);
- 	align-items: center;
- 	position: absolute;
+ 	align-items: flex-start;
  	font-family: Georgia;
     font-weight: bold;
     font-size: 30px;
     color: white;
     width: 590px;
     margin: 0 auto;
+    padding: 110px 60px;
 }
 
- .text-5 p1{
+ .img-5 p{
  	display: flex;
  	background-image: url(./imges/img-story-1.png);
  	align-items: center;
- 	position: absolute;
  	font-family: Georgia;
     font-weight: bold;
     font-size: 30px;
     color: white;
-    width: 590px;
+    width: 300px;
     margin: 0 auto;
+    padding: 100px 15px;
 }
