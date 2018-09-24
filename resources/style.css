@@ -7,11 +7,10 @@
 .logo {
 	display: inline-flex;
 	flex-grow: 2;
-	padding: 10px 0px 0px 0px;
 	
 }
 
-.logo .text{
+.logo.text{
 	color: MediumAquamarine;
 	align-items: center;
 }
@@ -33,6 +32,7 @@
 .navigation a{
 	flex-direction: row;
 	flex-grow: 1;
+	color: black;
 	
 }
 
@@ -40,15 +40,15 @@
 
 .container{
 	display: flex;
-	border: thin solid black;
+	
 }
 
 .column{
 	
-	border: thin solid black;
+	
 }
 
-.column .large {
+.column.large {
 	display: inline-flex;
 	flex-direction: column;
 	flex-grow: 3;
@@ -56,8 +56,8 @@
   	width: 630px;
 }
 
-.column .large p{
-	border: thin solid black;
+.column.large p{
+	
 }
 
 .column.medium {
@@ -76,14 +76,73 @@
   	width: 240px;
 }
 
-.text-1,
-.text-2,
+/*.text-1,*/
+.text-2/*,
 .text-3,
 .text-4,
 .text-5,
-.text-6,
-p1{
+.text-6*/{
 	border: thin solid black;
+	font-family: Georgia;
+    font-size: 17px;
+    color: black;
 }
 
+ /* Images */
 
+ .img-1,
+ .img-2,
+ .img-3,
+ .img-5{
+ 	display: flex;
+
+
+ }
+
+ .text-1 p1{
+ 	display: flex;
+ 	align-items: center;
+ 	position: absolute;
+ 	font-family: Georgia;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    width: 590px;
+    margin: 0 auto;
+}
+
+ .text-2 p1{
+ 	display: flex;
+ 	align-items: center;
+ 	position: absolute;
+ 	font-family: Georgia;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    width: 590px;
+    margin: 0 auto;
+}
+
+ .text-3 p1{
+ 	display: flex;
+ 	align-items: center;
+ 	position: absolute;
+ 	font-family: Georgia;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    width: 590px;
+    margin: 0 auto;
+}
+
+ .text-5 p1{
+ 	display: flex;
+ 	align-items: center;
+ 	position: absolute;
+ 	font-family: Georgia;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    width: 590px;
+    margin: 0 auto;
+}
