@@ -84,9 +84,14 @@
 }
 
 .text-1{
+	border: thick solid black;
 	display: flex;
-
 	justify-content: flex-start;
+	align-items: flex-start;
+	height: 300px;
+	width: 600px;
+	background-repeat: no-repeat;
+	padding: 70px 118px 160px 50px;
 }
 
  /* Images */
