@@ -106,7 +106,7 @@
 	align-items: flex-start;
 	flex-direction: column;
 	height: 550px;
-	width: 310px;
+	
 }
 
 .text-4{
@@ -116,7 +116,7 @@
 	align-items: flex-start;
 	flex-direction: column;
 	height: 500px;
-	width: 300px;	
+		
 }
 
 .text-5{
@@ -225,7 +225,7 @@
     font-weight: bold;
     font-size: 30px;
     color: white;
-    width: 300px;
+    
     margin: 0 auto;
     padding: 10px 0px 210px 0px;
 }
