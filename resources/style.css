@@ -96,7 +96,7 @@
 	align-items: flex-start;
 	flex-direction: column;
 
-	height: 550px;
+	height: 570px;
 	width: 300px;
 }
 
@@ -185,10 +185,9 @@
     color: white;
     width: 300px;
     height: 300px;
-    margin: 30px auto;
+    margin: 50px auto;
     padding-top: 0px;
     padding-bottom: 290px;
-
 }
 
  .img-3 {
@@ -216,5 +215,10 @@
     color: white;
     width: 300px;
     margin: 0 auto;
+<<<<<<< HEAD
     padding: 10px 0px 210px 0px;
 }
+=======
+    padding: 10px 25px 210px;
+}
+>>>>>>> a76af400e6bcfff7906635b718f5daa00c944dcb
