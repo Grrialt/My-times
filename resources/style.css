@@ -63,7 +63,11 @@
 	display: flex;
 	flex-direction: column;
 	width: 240px;
+<<<<<<< HEAD
 	margin: 1;
+=======
+	margin: 0;
+>>>>>>> 8812135fb9113552b1fb9fe44e32cfe3ddb7c531
 	border: thick solid black;
 }
 
@@ -129,6 +133,7 @@
 	width: 300px;	
 }
 
+<<<<<<< HEAD
 .text-6 p{
 	background-color: WhiteSmoke;
     font-family: Verdana;
@@ -139,6 +144,10 @@
 .text-6 h3{
 	font-size: 16px;
     font-weight: bold;	
+=======
+.text-6{
+	display: flex;
+>>>>>>> 8812135fb9113552b1fb9fe44e32cfe3ddb7c531
 }
 
 .group1{
@@ -228,4 +237,8 @@
     width: 300px;
     margin: 0 auto;
     padding: 10px 0px 210px 0px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 8812135fb9113552b1fb9fe44e32cfe3ddb7c531
