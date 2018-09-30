@@ -18,6 +18,8 @@
 
 .navigation{
 	display: flex;
+	flex-direction: row;
+	text-align: inline;
 	align-items: center;
 }
 
